@@ -1,19 +1,45 @@
-# Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+# esvisa-web
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.0.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.0.2/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.0.2/reference/htmlsingle/#web)
-* [Nacos Configuration](https://spring-cloud-alibaba-group.github.io/github-pages/hoxton/en-us/index.html#_spring_cloud_alibaba_nacos_config)
+## NODEJS VERSION
+```
+v16.12.0
+```
 
-### Guides
-The following guides illustrate how to use some features concretely:
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Nacos Configuration Example](https://github.com/alibaba/spring-cloud-alibaba/tree/master/spring-cloud-alibaba-examples/nacos-example/nacos-config-example)
+### Compiles and minifies for production
+```
+yarn build
+```
 
+### Lints and fixes files
+```
+yarn lint
+```
+
+### visa
+```
+window._CONFIG['homeURL'] = 'https://mq.sgrqianzheng.com';
+window._CONFIG['domainURL'] = 'https://visa.sancom.online/api';
+window._CONFIG['centerUrl'] = 'https://visa.sancom.online/center';
+window._CONFIG['webSocket'] = 'wss://visa.sancom.online/websocket/esvisa/';
+```
+### test
+```
+window._CONFIG['domainURL'] = 'http://visa.sancom.online:5000';
+window._CONFIG['domainURL'] = 'http://106.53.115.8:5000';
+window._CONFIG['domainURL'] = 'http://127.0.0.1:2000';
+window._CONFIG['centerUrl'] = 'https://visa.sancom.online/center';
+window._CONFIG['webSocket'] = 'wss://visa.sancom.online/websocket/esvisa/';
+```
+### youchuang
+```
+window._CONFIG['homeURL'] = 'https://trip.sancom.online';
+window._CONFIG['domainURL'] = 'https://trip.sancom.online/api';
+window._CONFIG['centerUrl'] = 'https://trip.sancom.online/center';
+window._CONFIG['webSocket'] = 'wss://trip.sancom.online/websocket/esvisa/';
+```
